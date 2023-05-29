@@ -1,0 +1,26 @@
+função principal do programa
+def main():
+  # vamos ler o ano de nascimento
+  ano_nascimento = int(input("Informe o ano de seu nascimento: "))
+   
+  # vamos ler o ano atual
+  ano_atual = int(input("Informe o ano atual: "))
+     
+  # calcula a idade em anos
+  idade_anos = ano_atual - ano_nascimento
+  print("\nA idade em anos é: {0}".format(idade_anos))
+     
+  # calcula a idade em meses
+  idade_meses = idade_anos * 12
+  print("A idade em meses é: {0}".format(idade_meses))
+     
+  # calcula a idade em dias
+  idade_dias = idade_anos * 12 * 30
+  print("A idade em dias é: {0}".format(idade_dias))
+     
+  # calcula a idade em semanas
+  idade_semanas = idade_anos * 52
+  print("A idade em semanas é: {0}".format(idade_semanas))
+   
+if __name__== "__main__":
+  main()
